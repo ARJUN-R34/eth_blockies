@@ -1,0 +1,28 @@
+
+<!doctype html>
+<head>
+  <style>
+  body {
+    background: #f1f1f1;
+  }
+
+  img, canvas {
+    display: inline-block;
+    margin: 10px;
+  }
+  </style>
+</head>
+<body>
+  <script type="module">
+    import { createIcon } from './node_modules/@download/blockies/src/blockies.mjs';
+
+    const canvas = createIcon({
+    seed: 'arjun',
+    size: 10,
+    scale: 8
+    });
+
+    document.body.appendChild(canvas)
+    console.log(canvas);
+  </script>
+</body>

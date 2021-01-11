@@ -1,0 +1,17 @@
+{
+  "name": "blockies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@download/blockies": "^1.0.3",
+    "canvas": "^2.6.1",
+    "ethereum-blockies": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
